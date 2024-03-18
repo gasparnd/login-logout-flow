@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		EB4051F22BA68220006A1609 /* LoginLogoutFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4051F12BA68220006A1609 /* LoginLogoutFlowApp.swift */; };
-		EB4051F42BA68220006A1609 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4051F32BA68220006A1609 /* ContentView.swift */; };
 		EB4051F62BA68221006A1609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4051F52BA68221006A1609 /* Assets.xcassets */; };
 		EB4051F92BA68221006A1609 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4051F82BA68221006A1609 /* Preview Assets.xcassets */; };
+		EB4052002BA6829B006A1609 /* UserStateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4051FF2BA6829B006A1609 /* UserStateViewModel.swift */; };
+		EB4052042BA684D4006A1609 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4052032BA684D4006A1609 /* HomeView.swift */; };
+		EB4052062BA684E3006A1609 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4052052BA684E3006A1609 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EB4051EE2BA68220006A1609 /* LoginLogoutFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginLogoutFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB4051F12BA68220006A1609 /* LoginLogoutFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginLogoutFlowApp.swift; sourceTree = "<group>"; };
-		EB4051F32BA68220006A1609 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB4051F52BA68221006A1609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB4051F82BA68221006A1609 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB4051FF2BA6829B006A1609 /* UserStateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStateViewModel.swift; sourceTree = "<group>"; };
+		EB4052032BA684D4006A1609 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EB4052052BA684E3006A1609 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				EB4051F12BA68220006A1609 /* LoginLogoutFlowApp.swift */,
-				EB4051F32BA68220006A1609 /* ContentView.swift */,
+				EB4051FF2BA6829B006A1609 /* UserStateViewModel.swift */,
+				EB4052052BA684E3006A1609 /* LoginView.swift */,
+				EB4052032BA684D4006A1609 /* HomeView.swift */,
 				EB4051F52BA68221006A1609 /* Assets.xcassets */,
 				EB4051F72BA68221006A1609 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB4051F42BA68220006A1609 /* ContentView.swift in Sources */,
+				EB4052062BA684E3006A1609 /* LoginView.swift in Sources */,
+				EB4052002BA6829B006A1609 /* UserStateViewModel.swift in Sources */,
 				EB4051F22BA68220006A1609 /* LoginLogoutFlowApp.swift in Sources */,
+				EB4052042BA684D4006A1609 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
